@@ -1,0 +1,14 @@
+<template>
+    
+    <a href="#" key={car.Id} style="text-decoration:none" onclick={handleSelect}>
+        <lightning-tile key={car.Id} label={car.Name} type="media">
+            <lightning-avatar slot="media" src={car.Picture__c} fallback-icon-name="custom:custom31" size="large"></lightning-avatar>
+            <ul class="slds-list_horizontal slds-has-dividers_right">
+                <li class="slds-item">{car.Account__r.Name}</li>
+                <li class="slds-item">{car.Type__c} {car.Price__c}/day</li>
+            </ul>
+        </lightning-tile>
+    </a>
+    
+    <br/>
+</template>

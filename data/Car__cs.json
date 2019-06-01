@@ -1,0 +1,37 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Car__c",
+                "referenceId": "Car__cRef1"
+            },
+            "Name": "E-Class Cabriolet",
+            "Inventory__c": 3,
+            "Price__c": 500,
+            "Type__c": "Convertible",
+            "Account__c": "@AccountRef5"
+        },
+        {
+            "attributes": {
+                "type": "Car__c",
+                "referenceId": "Car__cRef2"
+            },
+            "Name": "GLS SUV",
+            "Inventory__c": 5,
+            "Price__c": 700,
+            "Type__c": "SUV",
+            "Account__c": "@AccountRef5"
+        },
+        {
+            "attributes": {
+                "type": "Car__c",
+                "referenceId": "Car__cRef3"
+            },
+            "Name": "C-class Coupe",
+            "Inventory__c": 6,
+            "Price__c": 400,
+            "Type__c": "Coupe",
+            "Account__c": "@AccountRef5"
+        }
+    ]
+}

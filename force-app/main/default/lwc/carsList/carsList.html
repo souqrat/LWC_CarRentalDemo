@@ -1,0 +1,24 @@
+<template>
+
+    <lightning-card title="Available Cars">
+        
+        <template if:true={carsList}>
+            <div class="c-container">
+                <lightning-layout horizontal-align="space" multiple-rows pull-to-boundary="small">
+                    <template for:each={carsList} for:item=car>
+                        <lightning-layout-item key={car.Id} size="4" 
+                            small-device-size="12" medium-device-size="6" large-device-size="4" padding="around-small">
+                            <c-car-tile key={car.Id} car={car} oncarselect={handleCarSelected}></c-car-tile>
+                        </lightning-layout-item>
+                    </template>
+                </lightning-layout>
+            </div>
+        </template>
+
+        <template if:true={error}>
+            ERROR: {error}
+        </template>
+
+    </lightning-card>
+    
+</template>

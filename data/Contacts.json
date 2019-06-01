@@ -1,0 +1,33 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Contact",
+                "referenceId": "ContactRef1"
+            },
+            "Salutation": "Mr.",
+            "FirstName": "Fouad",
+            "LastName": "Mouatarif",
+            "AccountId": "@AccountRef1"
+        },
+        {
+            "attributes": {
+                "type": "Contact",
+                "referenceId": "ContactRef2"
+            },
+            "FirstName": "Antonio",
+            "LastName": "Sala",
+            "AccountId": "@AccountRef3"
+        },
+        {
+            "attributes": {
+                "type": "Contact",
+                "referenceId": "ContactRef3"
+            },
+            "Salutation": "Mr.",
+            "FirstName": "Javier",
+            "LastName": "Lopez",
+            "AccountId": "@AccountRef3"
+        }
+    ]
+}

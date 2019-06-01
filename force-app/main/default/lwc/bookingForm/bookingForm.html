@@ -1,0 +1,30 @@
+<template>
+
+    <lightning-card>
+
+        <h1 class="slds-text-heading_large">Car Rental Booking</h1>
+        <p class="slds-text-heading_medium">What dates are you interested in?</p>
+
+        <p>
+            <lightning-record-view-form record-id={carId} object-api-name="Car__c">
+                <lightning-output-field field-name="Name"></lightning-output-field>
+                <lightning-output-field field-name="Type__c"></lightning-output-field>
+                <lightning-output-field field-name="Price__c"></lightning-output-field>
+            </lightning-record-view-form>
+        </p>
+        
+        <p><lightning-input type="datetime" name="startdate" label="Start date" required
+            value={startDateTime} onchange={handleStartChange}>
+        </lightning-input></p>
+        
+        <p><lightning-input type="datetime" name="enddate" label="End date" required
+            value={endDateTime} onchange={handleEndChange}>
+        </lightning-input></p>
+        
+        <br/>
+
+        <lightning-button label='Confirm Booking' onclick={createBooking}></lightning-button>
+        
+    </lightning-card>
+
+</template>
