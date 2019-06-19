@@ -5,33 +5,66 @@
                 "type": "Car__c",
                 "referenceId": "Car__cRef1"
             },
-            "Name": "E-Class Cabriolet",
-            "Inventory__c": 3,
-            "Price__c": 500,
-            "Type__c": "Convertible",
-            "Account__c": "@AccountRef5"
+            "Price__c": 700,
+            "Account__c": "@AccountRef3",
+            "Name": "Audi RS 5 Coupe",
+            "Type__c": "Coupe",
+            "Picture__c": "https://stockphotos.motorcar.com/ChromeImageGallery/2018AUC290001_640/MultiView_Transparent/1_400.png"
         },
         {
             "attributes": {
                 "type": "Car__c",
                 "referenceId": "Car__cRef2"
             },
-            "Name": "GLS SUV",
-            "Inventory__c": 5,
-            "Price__c": 700,
-            "Type__c": "SUV",
-            "Account__c": "@AccountRef5"
+            "Price__c": 850,
+            "Account__c": "@AccountRef3",
+            "Name": "Audi A5 Cabriolet",
+            "Type__c": "Convertible",
+            "Picture__c": "https://stockphotos.motorcar.com/eBizStockPhotos/VehicleStyles/97925/1_400.png"
         },
         {
             "attributes": {
                 "type": "Car__c",
                 "referenceId": "Car__cRef3"
             },
-            "Name": "C-class Coupe",
-            "Inventory__c": 6,
+            "Price__c": 600,
+            "Account__c": "@AccountRef3",
+            "Name": "Audi Q7",
+            "Type__c": "SUV",
+            "Picture__c": "https://cloudflarestockimages.dealereprocess.com/resrc/images/stockphoto_asset-c_limit,f_auto,fl_lossy,w_400/v1/svp/Colors_PNG1280/2019/19audi/19audiq7premsu2fa/audi_19q7premsu2fa_angularfront_carrarawhite"
+        },
+        {
+            "attributes": {
+                "type": "Car__c",
+                "referenceId": "Car__cRef4"
+            },
             "Price__c": 400,
+            "Account__c": "@AccountRef4",
+            "Name": "C-class Coupe",
             "Type__c": "Coupe",
-            "Account__c": "@AccountRef5"
+            "Picture__c": "https://img.sm360.ca/ir/w400h300/images/newcar/2018/mercedes-benz/classe-c-coupe/300-4matic/coupe/exteriorColors/11217_cc0640_032_149.png"
+        },
+        {
+            "attributes": {
+                "type": "Car__c",
+                "referenceId": "Car__cRef5"
+            },
+            "Price__c": 700,
+            "Account__c": "@AccountRef4",
+            "Name": "GLS SUV",
+            "Type__c": "SUV",
+            "Picture__c": "https://cloudflarestockimages.dealereprocess.com/resrc/images/stockphoto_asset-c_limit,f_auto,fl_lossy,w_400/v1/svp/Colors_PNG1280/2019/19mercedes/19mercedesgls450awdsu1fa/mercedes_19gls450awdsu1fa_angularfront_designodiamondwhitemetallic"
+        },
+        {
+            "attributes": {
+                "type": "Car__c",
+                "referenceId": "Car__cRef6"
+            },
+            "Price__c": 500,
+            "Account__c": "@AccountRef4",
+            "Name": "E-Class Cabriolet",
+            "Type__c": "Convertible",
+            "Picture__c": "https://cloudflarestockimages.dealereprocess.com/resrc/images/stockphoto_asset-c_limit,f_auto,fl_lossy,w_400/v1/svp/Colors_PNG1280/2016/16mercedes/16mercedeseclass400cv5a/mercedes_16eclass400cv5a_angularfront_polarwhite"
         }
     ]
 }
