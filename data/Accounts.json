@@ -12,26 +12,19 @@
                 "type": "Account",
                 "referenceId": "AccountRef2"
             },
-            "Name": "BMW Rent"
+            "Name": "Souqrat Corp"
         },
         {
             "attributes": {
                 "type": "Account",
                 "referenceId": "AccountRef3"
             },
-            "Name": "Telefonica"
-        },
-        {
-            "attributes": {
-                "type": "Account",
-                "referenceId": "AccountRef4"
-            },
             "Name": "Audi Rent"
         },
         {
             "attributes": {
                 "type": "Account",
-                "referenceId": "AccountRef5"
+                "referenceId": "AccountRef4"
             },
             "Name": "Mercedes Rent"
         }

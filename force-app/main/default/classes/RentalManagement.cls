@@ -1,5 +1,5 @@
 public with sharing class RentalManagement {
-    
+
     @AuraEnabled
     public static List<Car__c> getAllCars() {
         List<Car__c> cars = [
